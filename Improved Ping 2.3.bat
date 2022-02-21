@@ -3,7 +3,7 @@ color 07
 title Improved Ping 2.3
 echo Type 1 for GUI mode (newer systems)
 echo Type 2 for NoGUI mode (older systems)
-echo NoGUI mode is compatible with older operating systems.
+echo NoGUI mode works better with older operating systems.
 set /p chooseGUI=
 cls
 if %chooseGUI% == 1 goto gui
